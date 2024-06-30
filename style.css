@@ -15,10 +15,9 @@
     --text-color: white;
     --main-color: #00f1ff;
 }
-.ring {
+/* .ring {
     position: relative;
-    /* width: 1102px;
-    height: 680px; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,13 +26,13 @@
 .ring i {
     position: absolute;
     inset: 0;
-    /*border: 2px solid #fff;*/
+    
     transition: 0.5s;
 }
 .ring:hover i {
     border: 6px solid var(--clr);
     filter: drop-shadow(0 0 20px var(--clr));
-}
+} */
 
 
 html {
@@ -541,9 +540,51 @@ span {
     margin: 2rem 0;
 }
 
-
-
+/*  */
 .contact {
+    /* new styles */
+    background-color: var(--bg-color);
+  }
+  
+  .contact h2 {
+    /* new styles */
+    margin-bottom: 3rem;
+    color: white;
+  }
+  
+  .contact form {
+    /* new styles */
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem auto;
+    text-align: center;
+  }
+  
+  /* animation styles */
+  .ring {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .ring i {
+    position: absolute;
+    inset: 0;
+    transition: 0.5s;
+  }
+  
+  .ring:hover i {
+    border: 6px solid var(--clr);
+    filter: drop-shadow(0 0 20px var(--clr));
+  }
+  
+
+/* .contact {
     background-color: var(--bg-color);
 }
 
@@ -559,7 +600,7 @@ span {
     gap: 3rem;
     margin: 5rem auto;
     text-align: center;
-}
+} */
 
 .contact form .input-box {
     display: flex;
